@@ -1,0 +1,21 @@
+{
+  "name": "statik",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thelucre/statik.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "shipit-cli": "^1.4.0",
+    "shipit-deploy": "^2.0.0"
+  },
+  "scripts": {
+    "deploy:staging": "node_modules/.bin/shipit staging deploy",
+    "deploy:production": "node_modules/.bin/shipit production deploy",
+    "rollback:staging": "node_modules/.bin/shipit staging rollback",
+    "rollback:production": "node_modules/.bin/shipit production rollback"
+  }
+}
