@@ -1,6 +1,19 @@
 # Apache Server Configs v2.14.0 | MIT License
 # https://github.com/h5bp/server-configs-apache
 
+RewriteEngine On
+
+# Remove file extensions from php files
+# The projects routing structure will mirror the directory structure
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# IE: 'news/article-slug' -> 'gallo.dev/news/detail.php?slug=article-slug'
+#RewriteRule ^news/([a-z0-9_-]+)$ /news/detail.php?slug=$1 [NC,L]
+
+
 # (!) Using `.htaccess` files slows down Apache, therefore, if you have
 # access to the main server configuration file (which is usually called
 # `httpd.conf`), you should add this logic there.
@@ -85,7 +98,7 @@
 # Customize what Apache returns to the client in case of an error.
 # https://httpd.apache.org/docs/current/mod/core.html#errordocument
 
-ErrorDocument 404 /404.html
+ErrorDocument 404 /404.php
 
 # ----------------------------------------------------------------------
 # | Error prevention                                                   |
