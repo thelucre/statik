@@ -1,4 +1,4 @@
-### What's included?
+## What's included?
 1. Webpack builds and hot module reloading
 2. SASS or Stylus loading
 3. Coffee or JS loading
@@ -21,4 +21,7 @@
 4. Get to work.
 
 ### Deployment
-1. Run `npm run deploy:staging` or `npm run deploy:production`
+1. Run `npm run deploy:staging` or `npm run deploy:production`. Only files in the `/assets` folder will be pushed to the server.
+
+### Notes
+- All content is parsed form YAML files within `/content` and set globally at your whimsy.
