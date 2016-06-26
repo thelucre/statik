@@ -19,5 +19,9 @@ _docs
 # Builds ignored, will be created on deploy
 dist/*
 
-# Don't commit server info 
+# Don't commit server info
 .env
+
+# Ignore webpack asset builds
+/public/dist/
+/public/dist/*

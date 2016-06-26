@@ -16,7 +16,7 @@
 ### Development
 1. Set up a vhost of `yoursitename.dev` in MAMP pointed to the `/public` folder
 2. Run `npm run watch` to kick off the hot module reload
-3. Got to `yoursitename.dev`
+3. Go to `yoursitename.dev`
 4. Get to work.
 
 ### Deployment
