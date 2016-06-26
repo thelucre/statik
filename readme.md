@@ -21,7 +21,8 @@
 4. Get to work.
 
 ### Deployment
-1. Run `npm run deploy:staging` or `npm run deploy:production`. Only files in the `/assets` folder will be pushed to the server.
+1. Run `npm run deploy:staging` or `npm run deploy:production`. Only files in the `/public` folder will be pushed to the server.
 
 ### Notes
-- All content is parsed form YAML files within `/content` and set globally at your whimsy.
+- All content is parsed form YAML files within `/public/content` and set globally at your whimsy in `/public/partials/content.php`.
+- Meta can injected by setting a global variable `$meta` with keys for `title`, `description`, and `image` before requiring `/public/partials/header.php`. See `index.php` for an example. Default meta is taken from `/public/content/global.yaml`
