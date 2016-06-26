@@ -28,6 +28,7 @@ function getContent($parser, $path) {
 		return $parser->parse(file_get_contents( __dir__ . '/../content/' .$path));
 }
 
+$global = getContent($yaml, 'global.yaml');
 
 // Content for main landing pages
 $home = getContent($yaml, 'home.yaml');
