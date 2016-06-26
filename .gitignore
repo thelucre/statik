@@ -19,5 +19,5 @@ _docs
 # Builds ignored, will be created on deploy
 dist/*
 
-# don't commit server info 
-shipitfile.coffee
+# Don't commit server info 
+.env
