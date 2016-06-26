@@ -8,6 +8,7 @@
 
 ### Setup
 1. Run `npm install`
+1. Run `composer install`
 2. Rename `example.env` as `.env` (this will not be committed to the repo)
 3. Edit the server details in `.env`
 4. If you haven't, run `brew install ssh-copy-id`

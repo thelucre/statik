@@ -1,0 +1,14 @@
+title: Listing of Content
+posts:
+  -
+    title: Big News
+    date: June 1, 2025
+    content: >
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra justo nec orci cursus elementum. Fusce tortor quam, blandit nec velit eu, tempus consectetur est. Donec pulvinar eros nulla, sit amet convallis sapien tincidunt in. Pellentesque eget sem vel risus rhoncus aliquet sed et est. Vivamus porttitor imperdiet venenatis.</p>
+
+  -
+    title: Old News
+    date: December 20, 1802
+    content: >
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra justo nec orci cursus elementum. Fusce tortor quam, blandit nec velit eu, tempus consectetur est. Donec pulvinar eros nulla, sit amet convallis sapien tincidunt in. Pellentesque eget sem vel risus rhoncus aliquet sed et est. Vivamus porttitor imperdiet venenatis.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra justo nec orci cursus elementum. Fusce tortor quam, blandit nec velit eu, tempus consectetur est. Donec pulvinar eros nulla, sit amet convallis sapien tincidunt in. Pellentesque eget sem vel risus rhoncus aliquet sed et est. Vivamus porttitor imperdiet venenatis.</p>

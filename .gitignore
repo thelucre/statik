@@ -13,8 +13,8 @@ npm-debug.log
 _docs
 
 # Composer dependencies
-/vendor/
-/vendor/*
+public/vendor/
+public/vendor/*
 
 # Builds ignored, will be created on deploy
 dist/*

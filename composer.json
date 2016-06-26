@@ -1,0 +1,8 @@
+{
+  "config": {
+    "vendor-dir": "public/vendor"
+  },
+  "require": {
+    "symfony/yaml": "^3.0"
+  }
+}
